@@ -2,11 +2,7 @@
 
 ## Overview
 
-In this project we utilize neural networks to predict whether charity organizations applying for funding from Alphabet Soup will be
-based on a dataset that includes details from Alphabet Soup of previous charity organizations that received funds, including whether such
-organizations were successful or not, how much funding they requested and received, and other miscellaneous information. Using these
-features we build models to predict which future applications will be successful. The target goal for the model was a 75+% accuracy rate
-in predicting success.
+In this project we utilize neural networks to predict whether charity organizations applying for funding from Alphabet Soup will be successful based on a dataset that includes details from Alphabet Soup of previous charity organizations that received funds, including whether such organizations were successful or not, how much funding they requested and received, and other miscellaneous information. Using these features we build models to predict which future applications will be successful. The target goal for the model was a 75+% accuracy rate in predicting success.
 
 ## Data
 
@@ -59,15 +55,7 @@ No model achieved the target goal of 75+% accuracy.
 
 ## Summary
 
-Overall I had very little success in varying nodes, activations, or epochs that resulted in any meaningful change to the resulting success of the neural
-network. In addition to the models above I tried to remove columns that seemed to have no correlation to the outcome (AFFILIATION and ORGANIZATION) but found
-the accuracy dropped to ~62%, a significant drop from the base model. In a prediction model the expectation is that it's not realistic to expect 100% accuracy,
-however I did expect that efforts to optimize the model would result in meaningful change. This leads me to believe that the factors that contribute to success
-of charity organizations lies outside the scope of the data captured in the dataset. In this scenario I would advise that projects be assessed to determine
-what additional information could be captured to include in models in the future to provide a more accurate prediction of outcome. Considering the accuracy
-declined when excluding AFFILIATION and ORGANIZATION columns, I would posit that it's not always beneficial to consider past successes to determine potential
-future successes. That each charity application be considered upon its own merits. Otherwise this could lead to predictions biased in favor of an application solely
-on the basis that previous applications by the same organization or affiliate were successful. 
+Overall I had very little success in varying nodes, activations, or epochs that resulted in any meaningful change to the resulting success of the neural network. In addition to the models above I tried to remove columns that seemed to have no correlation to the outcome (AFFILIATION and ORGANIZATION) but found the accuracy dropped to ~62%, a significant drop from the base model. In a prediction model the expectation is that it's not realistic to expect 100% accuracy, however I did expect that efforts to optimize the model would result in meaningful change. This leads me to believe that the factors that contribute to success of charity organizations lies outside the scope of the data captured in the dataset. In this scenario I would advise that projects be assessed to determine what additional information could be captured to include in models in the future to provide a more accurate prediction of outcome. Considering the accuracy declined when excluding AFFILIATION and ORGANIZATION columns, I would posit that it's not always beneficial to consider past successes to determine potential future successes. That each charity application be considered upon its own merits. Otherwise this could lead to predictions biased in favor of an application solely on the basis that previous applications by the same organization or affiliate were successful. 
 
 ## Resources
  - Data Source: [Raw CSV data file](https://raw.githubusercontent.com/niil945/Neural_Network_Charity_Analysis/main/Resources/charity_data.csv)
