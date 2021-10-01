@@ -23,8 +23,6 @@ The dataset consisted of 34,299 rows and included the following colums:
  - ASK_AMT
  - IS_SUCCESSFUL
 
-[Raw CSV data file](https://raw.githubusercontent.com/niil945/Neural_Network_Charity_Analysis/main/Resources/charity_data.csv)
-
 ## Results
 
 ### Data Pre-Processing
@@ -70,3 +68,8 @@ what additional information could be captured to include in models in the future
 declined when excluding AFFILIATION and ORGANIZATION columns, I would posit that it's not always beneficial to consider past successes to determine potential
 future successes. That each charity application be considered upon its own merits. Otherwise this could lead to predictions biased in favor of an application solely
 on the basis that previous applications by the same organization or affiliate were successful. 
+
+## Resources
+ - Data Source: [Raw CSV data file](https://raw.githubusercontent.com/niil945/Neural_Network_Charity_Analysis/main/Resources/charity_data.csv)
+ - Software: Python 3.7, Jupyter Notebook
+ - Libraries: os, pandas, sklearn, tensorflow
